@@ -80,7 +80,7 @@ public class SetImpl {
         Emplyees e2=new Emplyees();
 
         e2.id=1;
-        e2.name="Priya";
+        e2.name="Nandani";
         e2.role="ADMIN";
 
         Emplyees e3=new Emplyees();
@@ -88,8 +88,8 @@ public class SetImpl {
         e3.id=1;
         e3.name="Nandani";
         e3.role="ADMIN";
-        emplyeeSet.add(e2);
-        System.out.println(emplyeeSet);
+      //  emplyeeSet.add(e2);
+        System.out.println(emplyeeSet.contains(e3));
 
         emplyeesList.add(e1);
         emplyeesList.add(e2);
